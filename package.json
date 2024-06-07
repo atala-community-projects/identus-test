@@ -1,6 +1,6 @@
 {
   "name": "identus-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tools for testing identus",
   "main": "index.js",
   "scripts": {
