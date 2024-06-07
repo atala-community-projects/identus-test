@@ -7,7 +7,7 @@ const program = new Command()
 
 program
   .name('identus-test')
-  .description('CLI for identus-test suite setup')
+  .description('CLI for helping with identus testing')
 
 const ownerOpt = () => {
   return new Option(
