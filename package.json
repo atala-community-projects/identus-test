@@ -6,7 +6,7 @@
   "scripts": {
     "query": "./bin/query.sh"
   },
-  "bin": "./bin/identus-test.sh",
+  "bin": "./bin/identus-test.js",
   "type": "module",
   "repository": {
     "type": "git",

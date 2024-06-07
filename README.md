@@ -14,5 +14,5 @@ identus-test --help
 
 Get the current version of the cloud agent compatible with release 2.12
 ```bash
-identus-test cloud-agent --version 2.12
+identus-test query --version 2.12 cloud-agent
 ```
