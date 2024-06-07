@@ -29,7 +29,18 @@ program.command('query')
   .description('query the version of a particular component')
   .addArgument(
     new Argument('<component>', 'the component whose version to query')
-      .choices(['cloud-agent', 'mediator'])
+      .choices([
+        'cloud-agent',
+        'mediator',
+        'prism-node',
+        // sdk
+        'sdk-typescript',
+        'sdk-swift',
+        'sdk-kmm',
+        // other
+        'apollo',
+        'doc'
+      ])
   )
   .addArgument(
     new Argument('[version]', 'the identus release')
