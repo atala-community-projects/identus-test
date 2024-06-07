@@ -1,0 +1,28 @@
+{
+  "name": "identus-test",
+  "version": "0.0.1",
+  "description": "tools for testing identus",
+  "main": "index.js",
+  "scripts": {
+    "query": "./bin/query.sh"
+  },
+  "bin": "./bin/identus-test.sh",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atala-community-projects/identus-test-harness.git"
+  },
+  "keywords": [
+    "cardano",
+    "identus"
+  ],
+  "author": "mixmix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atala-community-projects/identus-test-harness/issues"
+  },
+  "homepage": "https://github.com/atala-community-projects/identus-test-harness#readme",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
