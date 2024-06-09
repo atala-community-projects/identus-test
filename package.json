@@ -12,7 +12,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atala-community-projects/identus-test-harness.git"
+    "url": "git+https://github.com/atala-community-projects/identus-test.git"
   },
   "keywords": [
     "cardano",
@@ -21,9 +21,9 @@
   "author": "mixmix",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/atala-community-projects/identus-test-harness/issues"
+    "url": "https://github.com/atala-community-projects/identus-test/issues"
   },
-  "homepage": "https://github.com/atala-community-projects/identus-test-harness#readme",
+  "homepage": "https://github.com/atala-community-projects/identus-test#readme",
   "dependencies": {
     "commander": "^12.1.0"
   }
